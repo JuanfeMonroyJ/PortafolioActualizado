@@ -1,6 +1,6 @@
 <h1> Proyecto Portafolio </h1>
 
-<p> Este proyecto esta en creación</p>
+<h2> Este proyecto esta en creación</h2>
 
 Todos los días se van a actualizar los cambios hasta llegar al final, quedara totalmente terminado y publicado por GitHub pages y Vercel.
 

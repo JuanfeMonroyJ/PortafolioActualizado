@@ -1,0 +1,116 @@
+/* Variables CSS */
+:root {
+    --letra-titulo: "Rubik Dirt", system-ui;
+}
+
+
+
+/* Barra de navegación */
+.navbar {
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+/* Estilos Generales */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: var(--letra-titulo)
+    
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: var(--letra-titulo);
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+/* Sección Hero */
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+
+}
+
+.hero-principal-desarrollador {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+/* Sobre mí */
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+
+}
+
+/* Experiencia */
+.experiencia {
+    padding: 40px;
+    
+}
+
+.experiencia-titulo {
+    font-size: 1.563rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia .row div {
+    height: 250px;
+    background-color: purple;
+    border: 3px solid orange;
+}
+
+/* Adaptable (Responsivo) */
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }   
+}

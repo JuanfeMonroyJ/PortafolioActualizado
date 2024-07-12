@@ -24,7 +24,8 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -238,7 +239,8 @@
 
     <!-- Artículos -->
     <section class="articulos justify-content-start">
-        <h2 class="seccion-titulo">Herramientas que nos ayudan con nuestras tareas diarias y debes aprender a usarlas</h2>
+        <h2 class="seccion-titulo">Herramientas que nos ayudan con nuestras tareas diarias y debes aprender a usarlas
+        </h2>
         <div class="card">
             <div class="card-header">
                 Más Recientes
@@ -248,19 +250,23 @@
                     <li class="list-group-item">MDN: Nos ayudara con mucha documentación</li>
                 </a>
                 <a href="https://fonts.google.com/" target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">Google Fonts: Indispensable para iconos y estilar aún más nuestro CSS</li>
+                    <li class="list-group-item">Google Fonts: Indispensable para iconos y estilar aún más nuestro CSS
+                    </li>
                 </a>
                 <a href="https://color.adobe.com/es/" target="_blank" rel="noopener noreferrer">
                     <li class="list-group-item">Adobe Color: Cuando no estés seguro de una combinación de colores</li>
                 </a>
-                <a href="https://www.figma.com/login?is_not_gen_0=true&resource_type=team" target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">Figma: Indispensable aprenderla a usar no solo para diseñar sino para interpretar</li>
+                <a href="https://www.figma.com/login?is_not_gen_0=true&resource_type=team" target="_blank"
+                    rel="noopener noreferrer">
+                    <li class="list-group-item">Figma: Indispensable aprenderla a usar no solo para diseñar sino para
+                        interpretar</li>
                 </a>
                 <a href="https://trello.com/home" target="_blank" rel="noopener noreferrer">
                     <li class="list-group-item">Trello: Nos ayudara a gestionar nuestro día a día</li>
                 </a>
                 <a href="https://pixabay.com/es/" target="_blank" rel="noopener noreferrer">
-                    <li class="list-group-item">Pixabay: Miles de fotos gratis y de libre uso, ideal para presentaciones de proyectos</li>
+                    <li class="list-group-item">Pixabay: Miles de fotos gratis y de libre uso, ideal para presentaciones
+                        de proyectos</li>
                 </a>
             </ul>
         </div>
@@ -271,6 +277,62 @@
             </button>
         </a>
     </section>
+
+    <!-- Testimonios -->
+    <section class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes</h3>
+        <!-- Carrusel -->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle d-block" src="./assets/cliente1.svg" alt="Foto de Gino">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in
+                            nisi dictum, convallis leo eu, viverra ante. Duis tristique nulla quam, eget malesuada est
+                            eleifend vel.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Gino</p>
+                            <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="d-block testimonio-imagen rounded-circle" src="./assets/cliente2.svg" alt="Foto de Nora">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in
+                            nisi dictum, convallis leo eu, viverra ante. Duis tristique nulla quam, eget malesuada est
+                            eleifend vel.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Nora</p>
+                            <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="d-block testimonio-imagen rounded-circle" src="./assets/cliente3.svg" alt="Foto de Leonardo">
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in
+                            nisi dictum, convallis leo eu, viverra ante. Duis tristique nulla quam, eget malesuada est
+                            eleifend vel.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Leonardo</p>
+                            <p class="cargo">Director de AprenderAProgramar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+    </section>
+
 
     <!-- JavaScript Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

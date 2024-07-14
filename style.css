@@ -51,7 +51,7 @@ h1 {
 }
 
 .seccion-texto {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 
 .btn-info {
@@ -100,7 +100,6 @@ h1 {
 .sobre-mi .contenedor {
     max-width: 600px;
     text-align: center;
-
 }
 
 /* Experiencia */
@@ -373,7 +372,7 @@ footer {
     border: 2px solid var(--fondos-contactos);
 }
 
-.iconos-redes-sociales a:hover i{
+.iconos-redes-sociales a:hover i {
     color: black;
 }
 

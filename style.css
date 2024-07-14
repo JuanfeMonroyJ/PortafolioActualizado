@@ -48,6 +48,8 @@ h1 {
 .seccion-descripcion {
     font-size: 1.2rem;
     color: #584e4e;
+    text-align: center;
+    max-width: 1000px;
 }
 
 .seccion-texto {
@@ -98,7 +100,7 @@ h1 {
 }
 
 .sobre-mi .contenedor {
-    max-width: 600px;
+    max-width: 1000px;
     text-align: center;
 }
 
@@ -261,7 +263,7 @@ h1 {
     font-family: "Share Tech Mono", monospace;
 }
 
-.testimonio-info {
+.cliente {
     font-weight: bold;
     text-align: center;
 }
